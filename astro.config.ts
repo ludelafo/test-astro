@@ -162,6 +162,10 @@ export default defineConfig({
 					label: "Conclusion au cours",
 					items: [{ autogenerate: { directory: "10-conclusion-au-cours" } }],
 				},
+				{
+					label: "Autre",
+					items: [{ autogenerate: { directory: "11-autre" } }],
+				},
 			],
 		}),
 	],
