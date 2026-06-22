@@ -3,7 +3,8 @@ import starlight from "@astrojs/starlight";
 import starlightLinksValidator from "starlight-links-validator";
 import starlightVideos from "starlight-videos";
 
-const title = "InfoIM";
+const title =
+	"Cours préparatoire d'informatique pour ingénierie des médias à la HEIG-VD";
 const description =
 	"Cours préparatoire d'informatique pour ingénierie des médias à la HEIG-VD.";
 const protocol = "https";
@@ -22,7 +23,7 @@ export default defineConfig({
 			description,
 			logo: {
 				src: "./src/assets/logo.svg",
-				replacesTitle: false,
+				replacesTitle: true,
 			},
 			social: [
 				{
