@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightLinksValidator from "starlight-links-validator";
+import starlightVideos from "starlight-videos";
 
 const title = "UPInfoIM";
 const description =
@@ -68,6 +69,8 @@ export default defineConfig({
 			plugins: [
 				// https://starlight-links-validator.vercel.app/
 				starlightLinksValidator(),
+				// https://starlight-videos.netlify.app/
+				starlightVideos(),
 			],
 			sidebar: [
 				{
