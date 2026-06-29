@@ -8,7 +8,7 @@ description:
   Premiers pas à la HEIG-VD pour l'unité préparation d'informatique pour
   ingénierie des médias à la HEIG-VD, Suisse
 url: https://heig-vd-upinfo-course.github.io/heig-vd-upinfo-course/02-premiers-pas-a-la-heig-vd/presentation.html
-header: "[**Premiers pas à la HEIG-VD**][contenu-complet-sur-github]"
+header: "[**Premiers pas à la HEIG-VD**][contenu-complet]"
 footer:
   "[**HEIG-VD**](https://heig-vd.ch) - [UPInfo Course
   2026-2027](https://github.com/heig-vd-upinfo-course/heig-vd-upinfo-course) -
@@ -26,8 +26,7 @@ _paginate: false
 
 [<img src="https://raw.githubusercontent.com/primer/octicons/refs/heads/main/icons/mark-github-24.svg" style="vertical-align: middle; width: 32px;" alt="GitHub logo"> `github.com/heig-vd-upinfo-course`](https://github.com/heig-vd-upinfo-course/heig-vd-upinfo-course)
 
-Visualiser le contenu complet sur GitHub [à cette
-adresse][contenu-complet-sur-github].
+[Visualiser le contenu complet sur le site dédié][contenu-complet].
 
 <small>L. Delafontaine, avec l'aide de
 [GitHub Copilot](https://github.com/features/copilot).</small>
@@ -46,8 +45,8 @@ adresse][contenu-complet-sur-github].
 
 [license]:
 	https://github.com/heig-vd-upinfo-course/heig-vd-upinfo-course/blob/main/LICENSE.md
-[contenu-complet-sur-github]:
-	https://github.com/heig-vd-upinfo-course/heig-vd-upinfo-course/blob/main/01-contenus-du-cours/02-workflow-git-et-github/README.md
+[contenu-complet]:
+	https://heig-vd-upinfo-course.github.io/heig-vd-upinfo-course/02-premiers-pas-a-la-heig-vd/01-introduction-et-ressources/
 
 <!-- Illustrations -->
 
