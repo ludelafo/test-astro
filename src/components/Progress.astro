@@ -164,10 +164,8 @@ import { Aside, Icon } from "@astrojs/starlight/components";
 
 				if (checkbox.checked) {
 					nextState[pagePath] = true;
-					umami.trackEvent("progress", "mark-complete");
 				} else {
 					delete nextState[pagePath];
-					umami.trackEvent("progress", "mark-incomplete");
 				}
 
 				saveState(nextState);
