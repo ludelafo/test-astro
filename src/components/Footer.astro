@@ -1,7 +1,16 @@
 ---
 import Feedback from "@components/Feedback.astro";
+import Progress from "@components/Progress.astro";
 import Default from "@astrojs/starlight/components/Footer.astro";
 ---
+
+{
+	Astro.locals.starlightRoute.entry.data.progress !== false && (
+		<div class="sl-markdown-content">
+			<Progress />
+		</div>
+	)
+}
 
 {
 	Astro.locals.starlightRoute.entry.data.feedback !== false && (

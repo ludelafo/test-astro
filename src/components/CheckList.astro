@@ -23,17 +23,16 @@ const { readonly = false } = Astro.props;
 
 	[data-checklist] :global(li) {
 		margin: 0.5rem 0;
-		display: flex;
-		align-items: flex-start;
-		gap: 0.5rem;
+		display: inline-flex;
+		align-items: center;
+		gap: 1rem;
 	}
 
 	[data-checklist] :global(input[type="checkbox"]) {
-		width: 1.125rem;
-		height: 1.125rem;
+		width: 1.1rem;
+		height: 1.1rem;
 		cursor: pointer;
 		flex-shrink: 0;
-		margin-top: 0.125rem;
 	}
 </style>
 

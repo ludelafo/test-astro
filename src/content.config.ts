@@ -9,6 +9,7 @@ export const collections = {
 		schema: docsSchema({
 			extend: z.object({
 				feedback: z.boolean().default(true),
+				progress: z.boolean().default(true),
 			}),
 		}),
 	}),
